@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+    <h1>Cadastro de Obra</h1>
+    <form id="obraForm">
+        <label for="sobrenome">Último Sobrenome do Autor:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required>
+        <br><br>
+        <label for="titulo">Título da Obra:</label>
+        <input type="text" id="titulo" name="titulo" required>
+        <br><br>
+        <button type="submit">Gerar</button>
+    </form>
+    
+    <div id="resultado" class="result" ></div>
+
+    </div>
+
+    <script src="geradorCutter.js"></script>
+    <script src="tabelaCutter.js"></script>
+</body>
+</html>
